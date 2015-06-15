@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0630"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A57E967F1B19A50D0057E80C"
+               BuildableName = "Heart Rate Monitor WatchKit App.app"
+               BlueprintName = "Heart Rate Monitor WatchKit App"
+               ReferencedContainer = "container:Heart Rate Monitor.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A57E96701B19A50D0057E80C"
+               BuildableName = "Heart Rate Monitor WatchKit Extension.appex"
+               BlueprintName = "Heart Rate Monitor WatchKit Extension"
+               ReferencedContainer = "container:Heart Rate Monitor.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A57E96431B19A4AE0057E80C"
+               BuildableName = "Heart Rate Monitor.app"
+               BlueprintName = "Heart Rate Monitor"
+               ReferencedContainer = "container:Heart Rate Monitor.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A57E967F1B19A50D0057E80C"
+            BuildableName = "Heart Rate Monitor WatchKit App.app"
+            BlueprintName = "Heart Rate Monitor WatchKit App"
+            ReferencedContainer = "container:Heart Rate Monitor.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "Heart Rate Monitor WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Heart Rate Monitor">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A57E967F1B19A50D0057E80C"
+            BuildableName = "Heart Rate Monitor WatchKit App.app"
+            BlueprintName = "Heart Rate Monitor WatchKit App"
+            ReferencedContainer = "container:Heart Rate Monitor.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A57E967F1B19A50D0057E80C"
+            BuildableName = "Heart Rate Monitor WatchKit App.app"
+            BlueprintName = "Heart Rate Monitor WatchKit App"
+            ReferencedContainer = "container:Heart Rate Monitor.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "Heart Rate Monitor WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Heart Rate Monitor">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A57E967F1B19A50D0057E80C"
+            BuildableName = "Heart Rate Monitor WatchKit App.app"
+            BlueprintName = "Heart Rate Monitor WatchKit App"
+            ReferencedContainer = "container:Heart Rate Monitor.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A57E967F1B19A50D0057E80C"
+            BuildableName = "Heart Rate Monitor WatchKit App.app"
+            BlueprintName = "Heart Rate Monitor WatchKit App"
+            ReferencedContainer = "container:Heart Rate Monitor.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

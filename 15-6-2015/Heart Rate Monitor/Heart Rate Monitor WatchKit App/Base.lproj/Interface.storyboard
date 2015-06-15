@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Heart Rate Monitor-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller backgroundImage="main_bg_watch.png" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <group width="1" height="2" alignment="left" spacing="4" id="3w8-1G-LBl">
+                            <items>
+                                <button width="100" alignment="left" backgroundImage="btn_hospitals.png" id="bpg-Jm-btT">
+                                    <variation key="device=watch38mm" alignment="left" width="64"/>
+                                    <variation key="device=watch42mm" alignment="left" width="74"/>
+                                    <connections>
+                                        <segue destination="qOz-fQ-199" kind="push" id="djI-Xy-JBf"/>
+                                    </connections>
+                                </button>
+                                <button width="100" alignment="left" backgroundImage="btn_friends.png" id="B7u-Vi-Znh">
+                                    <variation key="device=watch38mm" width="64"/>
+                                    <variation key="device=watch42mm" width="74"/>
+                                    <connections>
+                                        <segue destination="hnj-FT-uob" kind="push" id="7ST-Df-bZk"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                            <variation key="device=watch38mm" height="38" spacing="4">
+                                <edgeInsets key="margins" left="1" right="0.0" top="7" bottom="0.0"/>
+                                <mask key="items">
+                                    <include reference="bpg-Jm-btT"/>
+                                    <include reference="B7u-Vi-Znh"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm" height="42" spacing="4">
+                                <edgeInsets key="margins" left="1" right="0.0" top="9" bottom="0.0"/>
+                                <mask key="items">
+                                    <include reference="bpg-Jm-btT"/>
+                                    <include reference="B7u-Vi-Znh"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <group width="1" height="100" alignment="left" id="DID-Wt-PH6">
+                            <items>
+                                <label width="100" alignment="left" text="PULSE" textAlignment="center" minimumScaleFactor="0.50000000000000011" id="ggg-wY-2uF">
+                                    <variation key="device=watch38mm" minimumScaleFactor="0.40000000000000013" verticalAlignment="center" width="25"/>
+                                    <variation key="device=watch42mm" minimumScaleFactor="0.40000000000000013" verticalAlignment="center" width="33"/>
+                                </label>
+                                <imageView alignment="left" image="round_heart.png" contentMode="scaleAspectFit" id="zRU-NF-Y5I">
+                                    <variation key="device=watch38mm" verticalAlignment="center"/>
+                                    <variation key="device=watch42mm" verticalAlignment="center"/>
+                                </imageView>
+                                <label width="100" alignment="left" text="64 BPM" textAlignment="center" minimumScaleFactor="0.50000000000000011" id="wNw-3Y-7iz">
+                                    <variation key="device=watch38mm" minimumScaleFactor="0.40000000000000013" verticalAlignment="center" width="25"/>
+                                    <variation key="device=watch42mm" minimumScaleFactor="0.50000000000000011" verticalAlignment="center" width="33"/>
+                                </label>
+                            </items>
+                            <variation key="device=watch38mm" height="76">
+                                <mask key="items">
+                                    <include reference="ggg-wY-2uF"/>
+                                    <include reference="zRU-NF-Y5I"/>
+                                    <include reference="wNw-3Y-7iz"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm" height="82">
+                                <mask key="items">
+                                    <include reference="ggg-wY-2uF"/>
+                                    <include reference="zRU-NF-Y5I"/>
+                                    <include reference="wNw-3Y-7iz"/>
+                                </mask>
+                            </variation>
+                        </group>
+                        <group width="1" height="100" alignment="left" spacing="4" id="yVU-I7-ceF">
+                            <items>
+                                <button width="100" alignment="left" backgroundImage="btn_quit.png" id="5BW-yb-LZ6">
+                                    <variation key="device=watch38mm" alignment="left" width="64"/>
+                                    <variation key="device=watch42mm" alignment="left" width="74"/>
+                                    <connections>
+                                        <action selector="btnQuiteClicked" destination="AgC-eL-Hgc" id="i1B-0B-cTw"/>
+                                    </connections>
+                                </button>
+                                <button width="100" alignment="left" backgroundImage="btn_send.png" id="gEg-Do-odt">
+                                    <variation key="device=watch38mm" width="64"/>
+                                    <variation key="device=watch42mm" width="74"/>
+                                    <connections>
+                                        <action selector="btnSendClicked" destination="AgC-eL-Hgc" id="dAb-XQ-6PM"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                            <variation key="device=watch38mm" height="38" spacing="4">
+                                <mask key="items">
+                                    <include reference="5BW-yb-LZ6"/>
+                                    <include reference="gEg-Do-odt"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm" height="42" layout="horizontal" spacing="4">
+                                <edgeInsets key="margins" left="1" right="0.0" top="9" bottom="0.0"/>
+                                <mask key="items">
+                                    <include reference="5BW-yb-LZ6"/>
+                                    <include reference="gEg-Do-odt"/>
+                                </mask>
+                            </variation>
+                        </group>
+                    </items>
+                    <variation key="device=watch38mm" backgroundImage="main_bg_watch.png" contentMode="scaleToFill" title="Heart Rate Monitor">
+                        <mask key="items">
+                            <include reference="3w8-1G-LBl"/>
+                            <include reference="DID-Wt-PH6"/>
+                            <include reference="yVU-I7-ceF"/>
+                        </mask>
+                    </variation>
+                    <variation key="device=watch42mm" backgroundImage="main_bg_watch.png" contentMode="scaleToFill" title="Heart Rate Monitor">
+                        <mask key="items">
+                            <include reference="3w8-1G-LBl"/>
+                            <include reference="DID-Wt-PH6"/>
+                            <include reference="yVU-I7-ceF"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="lblHeartRate" destination="wNw-3Y-7iz" id="ZYF-JV-mRG"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="271.5641025641026"/>
+        </scene>
+        <!--Hospitals-->
+        <scene sceneID="8A1-l1-XAt">
+            <objects>
+                <controller backgroundImage="main_bg_watch.png" id="qOz-fQ-199" customClass="HospitalsVC">
+                    <items>
+                        <label width="100" height="100" alignment="left" text="Hospitals" textAlignment="center" id="Iu9-Ok-W75">
+                            <variation key="device=watch42mm" height="178" width="156"/>
+                        </label>
+                    </items>
+                    <variation key="default">
+                        <mask key="items">
+                            <exclude reference="Iu9-Ok-W75"/>
+                        </mask>
+                    </variation>
+                    <variation key="device=watch38mm" backgroundImage="main_bg_watch.png" title="Hospitals"/>
+                    <variation key="device=watch42mm" backgroundImage="main_bg_watch.png" title="Hospitals">
+                        <mask key="items">
+                            <include reference="Iu9-Ok-W75"/>
+                        </mask>
+                    </variation>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="285.94871794871796" y="187.87179487179489"/>
+        </scene>
+        <!--Friends-->
+        <scene sceneID="C6t-0z-KRl">
+            <objects>
+                <controller id="hnj-FT-uob" customClass="FriendsVC">
+                    <items>
+                        <label width="100" height="100" alignment="left" text="Friends" textAlignment="center" id="TIi-Dj-XPA">
+                            <variation key="device=watch42mm" height="178" width="156"/>
+                        </label>
+                    </items>
+                    <variation key="default">
+                        <mask key="items">
+                            <exclude reference="TIi-Dj-XPA"/>
+                        </mask>
+                    </variation>
+                    <variation key="device=watch38mm" backgroundImage="main_bg_watch.png" title="Friends"/>
+                    <variation key="device=watch42mm" backgroundImage="main_bg_watch.png" title="Friends">
+                        <mask key="items">
+                            <include reference="TIi-Dj-XPA"/>
+                        </mask>
+                    </variation>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="290.30769230769232" y="404.94871794871796"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="178.71794871794873" y="705.71794871794873"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="367.02564102564105" y="653.41025641025647"/>
+        </scene>
+    </scenes>
+</document>

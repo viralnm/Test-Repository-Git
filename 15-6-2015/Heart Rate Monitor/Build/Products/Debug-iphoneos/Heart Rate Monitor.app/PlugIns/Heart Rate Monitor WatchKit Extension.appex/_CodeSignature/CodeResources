@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Heart Rate Monitor WatchKit App.app/Base.lproj/Interface-notification.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PdRtfU3s/nfOsJxCptfD34vXuY4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Heart Rate Monitor WatchKit App.app/Base.lproj/Interface.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wp8ITmj+L/yc0WYe9jYhWk8Bo9g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Heart Rate Monitor WatchKit App.app/Heart Rate Monitor WatchKit App</key>
+		<data>
+		645QiQ3vusSyi33YPXjFo6HrDUo=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/Info.plist</key>
+		<data>
+		tZqI9PPVLv+DGLaaYzZPqr3/qlw=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/_CodeSignature/CodeResources</key>
+		<data>
+		Za1Ow86cpV2gVvLxwWJXv4SAxWY=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/_WatchKitStub/WK</key>
+		<data>
+		hKUEKqmFsKjyTp+iIQ4h3hUvZX4=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/btn_friends@2x.png</key>
+		<data>
+		LdB5VUD5ZZFKNlB8PIMO9X8k1XQ=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/btn_hospitals@2x.png</key>
+		<data>
+		8DApNZLkA25mpphlXgjZpqwAamY=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/btn_quit@2x.png</key>
+		<data>
+		DJK1SyUlMgvCsp1joWqoA+NpilQ=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/btn_send@2x.png</key>
+		<data>
+		eFi8EPNPFbD5skrVM6n2OEjrl2U=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/embedded.mobileprovision</key>
+		<data>
+		O9vit6laFjDBl3dLzmw4qUU6J4g=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/main_bg_watch@2x.png</key>
+		<data>
+		k4M3BBEgRRsA1PbAbVR5ZSamUvU=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/round_heart@2x.png</key>
+		<data>
+		LnUo4RzUfjdinVoyZjrO+nzBROI=
+		</data>
+		<key>Info.plist</key>
+		<data>
+		Hgsf+BRn7O/Fr7TlhKcFlg5dEOg=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		O9vit6laFjDBl3dLzmw4qUU6J4g=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>Heart Rate Monitor WatchKit App.app/Base.lproj/Interface-notification.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PdRtfU3s/nfOsJxCptfD34vXuY4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Heart Rate Monitor WatchKit App.app/Base.lproj/Interface.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wp8ITmj+L/yc0WYe9jYhWk8Bo9g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Heart Rate Monitor WatchKit App.app/Heart Rate Monitor WatchKit App</key>
+		<data>
+		645QiQ3vusSyi33YPXjFo6HrDUo=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/Info.plist</key>
+		<data>
+		tZqI9PPVLv+DGLaaYzZPqr3/qlw=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/_CodeSignature/CodeResources</key>
+		<data>
+		Za1Ow86cpV2gVvLxwWJXv4SAxWY=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/_WatchKitStub/WK</key>
+		<data>
+		hKUEKqmFsKjyTp+iIQ4h3hUvZX4=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/btn_friends@2x.png</key>
+		<data>
+		LdB5VUD5ZZFKNlB8PIMO9X8k1XQ=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/btn_hospitals@2x.png</key>
+		<data>
+		8DApNZLkA25mpphlXgjZpqwAamY=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/btn_quit@2x.png</key>
+		<data>
+		DJK1SyUlMgvCsp1joWqoA+NpilQ=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/btn_send@2x.png</key>
+		<data>
+		eFi8EPNPFbD5skrVM6n2OEjrl2U=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/embedded.mobileprovision</key>
+		<data>
+		O9vit6laFjDBl3dLzmw4qUU6J4g=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/main_bg_watch@2x.png</key>
+		<data>
+		k4M3BBEgRRsA1PbAbVR5ZSamUvU=
+		</data>
+		<key>Heart Rate Monitor WatchKit App.app/round_heart@2x.png</key>
+		<data>
+		LnUo4RzUfjdinVoyZjrO+nzBROI=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		O9vit6laFjDBl3dLzmw4qUU6J4g=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

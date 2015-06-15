@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BEF70B3D-08E5-4AB5-83BA-7B3539ABF969</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Heart Rate Monitor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>295513210F7C5F1F212921F9361C8C5CEE16E39C</key>
+		<string>https://bitbucket.org/viralnm/test-repository-viral.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Heart Rate Monitor/JUN/15-6-2015/Heart Rate Monitor/Heart Rate Monitor.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>295513210F7C5F1F212921F9361C8C5CEE16E39C</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/viralnm/test-repository-viral.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>295513210F7C5F1F212921F9361C8C5CEE16E39C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>295513210F7C5F1F212921F9361C8C5CEE16E39C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Test%20Repository%20Viral</string>
+		</dict>
+	</array>
+</dict>
+</plist>

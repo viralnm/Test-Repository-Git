@@ -1,0 +1,27 @@
+//
+//  Heart Rate Monitor-Prefix.pch
+//  Heart Rate Monitor
+//
+//  Created by Oneclick IT Solution on 6/4/15.
+//  Copyright (c) 2015 One Click IT Consultancy . All rights reserved.
+//
+
+#ifndef Heart_Rate_Monitor_Heart_Rate_Monitor_Prefix_pch
+#define Heart_Rate_Monitor_Heart_Rate_Monitor_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "Constant.h"
+#import "AppDelegate.h"
+#import "URLManager.h"
+#import "MBProgressHUD.h"
+#import "URBAlertView.h"
+#import "Reachability.h"
+#import "AsyncImageView.h"
+
+#endif
